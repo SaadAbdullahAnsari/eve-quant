@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+pyarrow
+pytest
+black
+ruff
+pyyaml

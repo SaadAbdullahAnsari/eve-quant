@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated market and static-data caches. Rebuild these locally; do not put
+# downloaded EVE SDE archives or generated parquet outputs in Git.
+data/*
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/input/
+data/input/*
+!data/input/inventory_template.csv
+
+# Generated reports
+reports/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local task logs
+.pip-install.*
+.pipeline.*
+.format-install.*
+.advisor*.log
+.advisor*.err
+.strict-advisor.*
+.live-*
